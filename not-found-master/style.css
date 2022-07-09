@@ -51,6 +51,12 @@ main button {
     width: 216px;
     height: 68px;
     margin-top: 4rem;
+    transition-duration: 0.4s;
+}
+
+main button:hover {
+    background-color: rgba(78, 78, 78, 0.867);
+    
 }
 
 footer {
