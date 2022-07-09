@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Space+Mono&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Space Mono';
+}
+
+header p {
+    display: flex;
+    padding: 1.5rem;
+    font-family: 'Inconsolata';
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+picture img {
+    padding-top: 5rem;
+    max-width: 286px;
+}
+
+h1 {
+    display: flex;
+    padding: 3rem 1rem 1.5rem 1rem;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+main p {
+    padding: 0 4rem 4rem 1rem;
+}
+
+main button {
+    background-color: #333333;
+    color: white;
+    width: 216px;
+    height: 68px;
+}
+
+footer {
+    display: flex;
+    height: 5rem;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+}
+
+footer p {
+    color: #bdbdbd;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+footer a {
+    color: #bdbdbd;
+    font-weight: 700;
+}
+
