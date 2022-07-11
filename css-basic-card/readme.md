@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">404 Page not fount challenge</h1>
+<h1 align="center">Learn CSS basics by Building a card component</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://62c9a7b4d7ab99078423903b--sparkling-halva-660443.netlify.app/">
+    <a href="https://tourmaline-elf-3cae22.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/hroddev/devChallenge/tree/master/not-found-master">
+    <a href="https://github.com/hroddev/devChallenge/tree/master/css-basic-card">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
+    <a href="https://devchallenges.io/learn/tutorial/css-for-beginners">
       Challenge
     </a>
   </h3>
@@ -36,9 +36,8 @@
 
 ## Overview
 
-![screenshot](https://github.com/hroddev/devChallenge/blob/master/not-found-master/img/screenshot1.png)
+![screenshot](https://github.com/hroddev/devChallenge/blob/master/css-basic-card/img1.png)
 
-This is my solution for a responsive web page of not found, I hope like you.
 I'm practice in CSS and HTML and it was a chance to share my job and learn a new things with figma and CSS.
 I aprecient the feedback.
 
