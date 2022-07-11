@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap');
 
-img {
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.image {
     width: 100%;
+    height: 214px;
     border-radius: 12px;
+    object-fit: cover;
 }
 
 body {
@@ -11,9 +18,8 @@ body {
 }
 
 #container {
-    max-width: 300px;
+    max-width: 294px;
     margin: 0 auto;
-
     margin-top: 20vh;
 }
 
@@ -22,11 +28,17 @@ body {
     padding: 8px;
     border-radius: 12px;
     border: 1px solid #BACDD8;
+    margin-top: 1rem;
+}
+
+.label {
+    padding-top: 1rem;
+    padding-left: .5rem;
 }
 
 .tag {
     color: #788697;
-    border: 1px solid #788697;
+    border: 1px solid #E5EAED;
     border-radius: 12px;
     padding: 4px 8px;
     font-weight: 600;
@@ -39,4 +51,25 @@ body {
     font-size: 24px;
     line-height: 28px;
     color: #0E2632;
+    padding: .75rem;
+}
+
+p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #7F8C9B;
+    padding: 0 .5rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    margin: .5rem auto;
+    display: block;
+    background-color: #E0EFFF;
+    color: #0077FF;
+    font-weight: 600;
+    font-size: 10px;
+    padding: 12px 24px;
+    border-radius: 49px;
+    border: none;
 }
