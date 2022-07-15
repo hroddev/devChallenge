@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=PT+Serif:wght@700&family=Poppins:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    padding: 5rem 1.5rem;
+}
+.title {
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    padding-bottom: 3rem;
+}
+
+.sub-title h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 27px;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+}
+
+.sub-title p {
+    font-size: 1rem;
+    line-height: 21px;
+    font-weight: 400;
+    max-width: 333px;
+    padding-bottom: 3rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.cards:nth-child(3n+2) {
+    margin-top:  2rem;
+}
+.avatar {
+    display: flex;
+}
+.pics-title {
+    display: flex;
+    font-size: .75REM;
+}
+.job-title p {
+    display: block;
+    writing-mode: vertical-rl;
+
+}
+
+.crew img {
+    display: block;
+    max-width: 138px;
+}
+
+.name {
+    padding-top: 0.75rem;
+    padding-bottom: 2rem;
+    font-weight: 600;
+    line-height: 21px;
+    font-size: 1rem; 
+}
+
+footer {
+    display: flex;
+    height: 5rem;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+}
