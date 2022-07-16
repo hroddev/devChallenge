@@ -7,7 +7,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://app.netlify.com/sites/aesthetic-sunshine-84e132/overview">
+    <a href="https://aesthetic-sunshine-84e132.netlify.app/">
       Demo
     </a>
     <span> | </span>
