@@ -1,65 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <link rel="stylesheet" href="/css/style.css" />
-    <title>Interior consultant challenge</title>
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <buttom class="btn-logo">this interior</buttom>
-      </div>
-      <nav class="primary-nav" id="primary-nav">
-        <ul class="item-nav">
-          <li class="navbar-li"><a href="#">Home</a></li>
-          <li class="navbar-li"><a href="#">Collection</a></li>
-          <li class="navbar-li"><a href="#">About</a></li>
-          <li class="navbar-li"><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/devchallenges.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://kit.fontawesome.com/2fb93ab2c0.js" crossorigin="anonymous"></script>
+  <title>Interior consultant challenge</title>
+</head>
+<body>
+    <div id="container">
+      <header>
+        <button class="nav__button">THIS INTERIOR</button>
 
-    <main class="container">
-      <div class="hero">
-        <h1 class="title">Modern interior</h1>
-        <p class="title-description">
-          A full-Service residential & commercial interior design and staging
-          company offering professional organizing & eco-services.
-        </p>
-        <a href="#" class="read-more">Read more</a><i class="fa-light fa-arrow-right-long"></i>
-      </div>
+        <nav class="primary-nav">
+          <ul class="navigation__list">
+            <li class="navigation__item"><a href="#">Home</a></li>
+          </ul>
+         <!--  
+          <a href="#" class="navigation__item">About</a>
+          <a href="#" class="navigation__item">Services</a>
+          <a href="#" class="navigation__item">Contact</a> -->
+        </nav>
 
-      <picture>
-        <img class="img-hero" src="/img/photo1.png" alt="Living room" />
-      </picture>
-
-      <div class="card">
-        <div class="profile">
-          <picture>
-            <img class="img-card" src="/img/photo2.png" alt="Profile pic of woman" />
-          </picture>
-          <div class="name-card">
-            <h3 class="title-card">Aliza Webber</h3>
-            <p class="position-card">Interior designer</p>
-          </div>
+        <button class="reorder__button">
+          <i class="fa fa-reorder"></i>
+        </button>
+      </header>
+      <main>
+        <div class="main__content">
+          <h1 class="title__content">Modern interior</h1>
+          <p class="description__content">
+            A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.
+          </p>
+          <a href="#" class="readme__button">Read more
+          </a>
+          <i class="fas fa-long-arrow-alt-right"></i>
+        </div>
+        
+        <div class="main__image">
+          <img class="image__hero" src="./img/photo1.png" alt="Living room">
         </div>
 
-          <div class="content-card">
-            <p class="description-card">Designed in 2020 by Aliza Webber</p>
+        <!-- <div class="main__card">
+          <div class="profile">
+            <img class="avatar" src="./img/photo2.png" alt="Young woman smiling">
+            <div class="name-container">
+              <h3 class="name__card">
+                Aliza Webber
+              </h3>
+              <p class="position__card">Interior designer</p>
+            </div>
+            </div>
+            
+          <div class="content__card">
+            <h4 class="description__card">
+              Designed in 2020 by <br> Aliza Webber
+            </h4>
           </div>
-          
-      </div>
-   
-    </main>
-
+        </div> -->
+      </main>
       <footer>
-        <p>
-          created by <a href="#">hroddev</a> - devChallenges.io
-        </p>
+        <span>created by <a href="#" class="creator">hroddev</a> - devChallenges.io</span>
       </footer>
-  </body>
+    </div>
+    
+</body>
 </html>
